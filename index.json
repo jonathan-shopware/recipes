@@ -1,0 +1,122 @@
+{
+    "aliases": {
+        "code-quality": "frosh/code-quality-meta",
+        "codequality": "frosh/code-quality-meta",
+        "console": "symfony/console",
+        "dev-tools": "shopware/dev-tools",
+        "devenv": "frosh/devenv-meta",
+        "devtools": "shopware/dev-tools",
+        "fastly": "shopware/fastly-meta",
+        "framework-bundle": "symfony/framework-bundle",
+        "frameworkbundle": "symfony/framework-bundle",
+        "gitpod": "frosh/gitpod-meta",
+        "log": "symfony/monolog-bundle",
+        "logger": "symfony/monolog-bundle",
+        "logging": "symfony/monolog-bundle",
+        "logs": "symfony/monolog-bundle",
+        "messenger": "symfony/messenger",
+        "monolog": "symfony/monolog-bundle",
+        "monolog-bundle": "symfony/monolog-bundle",
+        "monologbundle": "symfony/monolog-bundle",
+        "paas": "shopware/paas-meta",
+        "routing": "symfony/routing",
+        "translation": "symfony/translation",
+        "twig-bundle": "symfony/twig-bundle",
+        "twigbundle": "symfony/twig-bundle"
+    },
+    "recipes": {
+        "doctrine/annotations": [
+            "1.0"
+        ],
+        "enqueue/dbal": [
+            "0.10"
+        ],
+        "enqueue/enqueue-bundle": [
+            "0.10"
+        ],
+        "enqueue/redis": [
+            "0.10"
+        ],
+        "frosh/code-quality-meta": [
+            "0.1",
+            "0.2"
+        ],
+        "frosh/devenv-meta": [
+            "0.1",
+            "0.2"
+        ],
+        "frosh/gitpod-meta": [
+            "6.4"
+        ],
+        "shopware/administration": [
+            "6.4"
+        ],
+        "shopware/core": [
+            "6.4"
+        ],
+        "shopware/docker": [
+            "0.1"
+        ],
+        "shopware/elasticsearch": [
+            "6.4"
+        ],
+        "shopware/fastly-meta": [
+            "6.4"
+        ],
+        "shopware/paas-meta": [
+            "6.4"
+        ],
+        "shopware/platform": [
+            "6.4"
+        ],
+        "shopware/storefront": [
+            "6.4"
+        ],
+        "sroze/messenger-enqueue-transport": [
+            "0.4"
+        ],
+        "symfony/console": [
+            "5.4"
+        ],
+        "symfony/framework-bundle": [
+            "5.4"
+        ],
+        "symfony/messenger": [
+            "5.4",
+            "6.0"
+        ],
+        "symfony/monolog-bundle": [
+            "3.3"
+        ],
+        "symfony/routing": [
+            "5.4"
+        ],
+        "symfony/translation": [
+            "5.4"
+        ],
+        "symfony/twig-bundle": [
+            "5.4"
+        ]
+    },
+    "recipe-conflicts": {
+        "symfony/messenger": {
+            "5.4": {
+                "symfony/framework-bundle": "<4.3"
+            },
+            "6.0": {
+                "symfony/framework-bundle": "<4.3"
+            }
+        }
+    },
+    "versions": [],
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/shopware/recipes",
+        "origin_template": "{package}:{version}@github.com/shopware/recipes:main",
+        "recipe_template": "https://raw.githubusercontent.com/shopware/recipes/flex/pull-63/{package_dotted}.{version}.json",
+        "recipe_template_relative": "{package_dotted}.{version}.json",
+        "archived_recipes_template": "https://raw.githubusercontent.com/shopware/recipes/flex/pull-63/archived/{package_dotted}/{ref}.json",
+        "archived_recipes_template_relative": "archived/{package_dotted}/{ref}.json"
+    }
+}
